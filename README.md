@@ -1,6 +1,6 @@
 # Scaffold Application
 
-Creating Rails app using CLI
+Create Rails App Using CLI 
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Rails vesrion
 
-  - Rails-4.2.5
+  - Rails-4.2.5 
 
 ### Installing
 
@@ -50,6 +50,12 @@ bundle install
 rails db:migrate
 ```
 
+- check the *db/schema.rb* after migration completed successfully
+- Run *db/seed.rb* file to create sample data for application
+
+```
+rails db:seed
+```
 ## Running Application
 
 - Start rails server
